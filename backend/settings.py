@@ -29,10 +29,13 @@ FRONTEND_URL = "http://localhost:5173"  # For Vite development
 
 
 ALLOWED_HOSTS = ['*']
+# CORS_ALLOWED_ORIGINS = [
+#     'http://localhost:5173',  # For Vite (default port)
+# ]
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:5173',  # For Vite (default port)
+    "https://hilarious-gecko-78b3c5.netlify.app"
 ]
-
+CORS_ALLOW_ALL_ORIGINS = True 
 
 # Application definition
 
