@@ -33,7 +33,19 @@ ALLOWED_HOSTS = ['*']
 #     'http://localhost:5173',  # For Vite (default port)
 # ]
 CORS_ALLOWED_ORIGINS = [
-    "https://flourishing-taffy-6cadcc.netlify.app/"
+    "https://spiffy-sundae-95faec.netlify.app/"
+]
+
+# settings.py
+X_FRAME_OPTIONS = 'SAMEORIGIN'
+CSRF_COOKIE_SAMESITE = 'None'
+CSRF_COOKIE_SECURE = True
+SESSION_COOKIE_SAMESITE = 'None'
+SESSION_COOKIE_SECURE = True
+CORS_ALLOW_CREDENTIALS = True
+CORS_ALLOWED_ORIGINS = [
+    "https://spiffy-sundae-95faec.netlify.app/",
+    "http://localhost:5173" , # For development
 ]
 CORS_ALLOW_ALL_ORIGINS = True 
 
