@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-suzgtm(w0(a!tz0!e%t&u!utr_ba$odmwcoroq-f&4^19y33se
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-FRONTEND_URL = "https://shimmering-kulfi-61514f.netlify.app/"  # For Vite development
+FRONTEND_URL = "https://flourishing-taffy-6cadcc.netlify.app/"  # For Vite development
 
 
 ALLOWED_HOSTS = ['*']
@@ -33,7 +33,7 @@ ALLOWED_HOSTS = ['*']
 #     'http://localhost:5173',  # For Vite (default port)
 # ]
 CORS_ALLOWED_ORIGINS = [
-    "https://shimmering-kulfi-61514f.netlify.app/"
+    "https://flourishing-taffy-6cadcc.netlify.app/"
 ]
 CORS_ALLOW_ALL_ORIGINS = True 
 
@@ -127,7 +127,7 @@ CORS_ALLOW_HEADERS = [
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://shimmering-kulfi-61514f.netlify.app",
+  "https://flourishing-taffy-6cadcc.netlify.app",
     "http://localhost:5173",
 ]
 CSRF_COOKIE_SAMESITE = 'Lax'
