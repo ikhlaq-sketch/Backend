@@ -127,6 +127,7 @@ CORS_ALLOW_HEADERS = [
 ]
 
 CSRF_TRUSTED_ORIGINS = [
+    "https://shimmering-kulfi-61514f.netlify.app",
     "http://localhost:5173",
 ]
 CSRF_COOKIE_SAMESITE = 'Lax'
