@@ -35,7 +35,7 @@ ALLOWED_HOSTS = ['*']
 
 
 # settings.py
-X_FRAME_OPTIONS = 'SAMEORIGIN'
+X_FRAME_OPTIONS = 'ALLOW-FROM https://meek-lolly-0b22ed.netlify.app'
 CSRF_COOKIE_SAMESITE = 'None'
 CSRF_COOKIE_SECURE = True
 SESSION_COOKIE_SAMESITE = 'None'
@@ -139,6 +139,7 @@ CORS_ALLOW_HEADERS = [
 CSRF_TRUSTED_ORIGINS = [
   "https://meek-lolly-0b22ed.netlify.app/",
     "http://localhost:5173",
+    
 ]
 CSRF_COOKIE_SAMESITE = 'Lax'
 CSRF_COOKIE_HTTPONLY = False 
