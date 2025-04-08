@@ -28,7 +28,9 @@ DEBUG = True
 FRONTEND_URL = "https://heroic-basbousa-91b9a4.netlify.app/"  # For Vite development
 
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['nextstep-backend-production.up.railway.app']
+
+
 # CORS_ALLOWED_ORIGINS = [
 #     'http://localhost:5173',  # For Vite (default port)
 # ]
@@ -139,6 +141,7 @@ CORS_ALLOW_HEADERS = [
 CSRF_TRUSTED_ORIGINS = [
   "https://heroic-basbousa-91b9a4.netlify.app/",
     "http://localhost:5173",
+    "https://nextstep-backend-production.up.railway.app",
 
 ]
 CSRF_COOKIE_SAMESITE = 'Lax'
