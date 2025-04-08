@@ -1,0 +1,26 @@
+[
+    {
+        "skills": "java",
+        "experience": "Mid",
+        "education": "Bachelor's ",
+        "interests": "programing",
+        "job_demand": "10",
+        "recommended_field": "android development"
+    },
+    {
+        "skills": "springboot",
+        "experience": "Mid",
+        "education": "Bachelor's ",
+        "interests": "technology",
+        "job_demand": "10",
+        "recommended_field": "backend developer"
+    },
+    {
+        "skills": "springboot",
+        "experience": "Mid",
+        "education": "Bachelor's ",
+        "interests": "technology",
+        "job_demand": "9",
+        "recommended_field": "backend developer"
+    }
+]
