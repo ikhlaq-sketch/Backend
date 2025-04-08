@@ -25,26 +25,24 @@ SECRET_KEY = 'django-insecure-suzgtm(w0(a!tz0!e%t&u!utr_ba$odmwcoroq-f&4^19y33se
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-FRONTEND_URL = "https://heroic-basbousa-91b9a4.netlify.app"  # For Vite development
+FRONTEND_URL = "https://heroic-basbousa-91b9a4.netlify.app/"  # For Vite development
 
 
-ALLOWED_HOSTS = ['nextstep-backend-production.up.railway.app', 'heroic-basbousa-91b9a4.netlify.app']
-
-
+ALLOWED_HOSTS = ['*']
 # CORS_ALLOWED_ORIGINS = [
 #     'http://localhost:5173',  # For Vite (default port)
 # ]
 
 
 # settings.py
-X_FRAME_OPTIONS = 'ALLOW-FROM https://heroic-basbousa-91b9a4.netlify.app'
+X_FRAME_OPTIONS = 'ALLOW-FROM https://heroic-basbousa-91b9a4.netlify.app/'
 CSRF_COOKIE_SAMESITE = 'None'
 CSRF_COOKIE_SECURE = True
 SESSION_COOKIE_SAMESITE = 'None'
 SESSION_COOKIE_SECURE = True
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
-    "https://heroic-basbousa-91b9a4.netlify.app",
+    "https://heroic-basbousa-91b9a4.netlify.app/",
     "http://localhost:5173" , # For development
 ]
 CORS_ALLOW_ALL_ORIGINS = True 
@@ -52,7 +50,6 @@ CORS_ALLOW_ALL_ORIGINS = True
 # Application definition
 
 INSTALLED_APPS = [
-  
     'rest_framework',
      'rest_framework_simplejwt',
     'corsheaders',
@@ -67,7 +64,6 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
-     'whitenoise.middleware.WhiteNoiseMiddleware',
     "corsheaders.middleware.CorsMiddleware",  # Add this before CommonMiddleware
     "django.middleware.common.CommonMiddleware",
     'django.middleware.security.SecurityMiddleware',
@@ -141,9 +137,9 @@ CORS_ALLOW_HEADERS = [
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-#   "https://heroic-basbousa-91b9a4.netlify.app",
-#     "http://localhost:5173",
-    "https://nextstep-backend-production.up.railway.app",
+  "https://heroic-basbousa-91b9a4.netlify.app/",
+    "http://localhost:5173",
+    "https://nextstep-backend-production.up.railway.app"
 
 ]
 CSRF_COOKIE_SAMESITE = 'Lax'
@@ -221,9 +217,6 @@ USE_I18N = True
 
 USE_TZ = True
 
-STATIC_URL = '/static/'
-
-# Ensure you have set the directory where static files will be collected
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 
@@ -231,6 +224,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
+STATIC_URL = 'static/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
