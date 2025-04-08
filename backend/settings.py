@@ -219,6 +219,9 @@ USE_I18N = True
 
 USE_TZ = True
 
+STATIC_URL = '/static/'
+
+# Ensure you have set the directory where static files will be collected
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 
