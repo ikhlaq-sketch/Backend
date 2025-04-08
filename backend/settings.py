@@ -28,7 +28,7 @@ DEBUG = True
 FRONTEND_URL = "https://heroic-basbousa-91b9a4.netlify.app/"  # For Vite development
 
 
-ALLOWED_HOSTS = ['nextstep-backend-production.up.railway.app']
+ALLOWED_HOSTS = ['nextstep-backend-production.up.railway.app', 'heroic-basbousa-91b9a4.netlify.app']
 
 
 # CORS_ALLOWED_ORIGINS = [
