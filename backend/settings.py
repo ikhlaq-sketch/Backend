@@ -25,16 +25,14 @@ SECRET_KEY = 'django-insecure-suzgtm(w0(a!tz0!e%t&u!utr_ba$odmwcoroq-f&4^19y33se
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-FRONTEND_URL = "https://velvety-crisp-9e3104.netlify.app/"  # For Vite development
+FRONTEND_URL = "https://unrivaled-liger-f1e6b9.netlify.app/"  # For Vite development
 
 
 ALLOWED_HOSTS = ['*']
 # CORS_ALLOWED_ORIGINS = [
 #     'http://localhost:5173',  # For Vite (default port)
 # ]
-CORS_ALLOWED_ORIGINS = [
-    "https://velvety-crisp-9e3104.netlify.app/"
-]
+
 
 # settings.py
 X_FRAME_OPTIONS = 'SAMEORIGIN'
@@ -44,7 +42,7 @@ SESSION_COOKIE_SAMESITE = 'None'
 SESSION_COOKIE_SECURE = True
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
-    "https://velvety-crisp-9e3104.netlify.app/",
+    "https://unrivaled-liger-f1e6b9.netlify.app/",
     "http://localhost:5173" , # For development
 ]
 CORS_ALLOW_ALL_ORIGINS = True 
@@ -139,7 +137,7 @@ CORS_ALLOW_HEADERS = [
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-  "https://velvety-crisp-9e3104.netlify.app/",
+  "https://unrivaled-liger-f1e6b9.netlify.app/",
     "http://localhost:5173",
 ]
 CSRF_COOKIE_SAMESITE = 'Lax'
