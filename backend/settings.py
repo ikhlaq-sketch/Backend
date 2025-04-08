@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-suzgtm(w0(a!tz0!e%t&u!utr_ba$odmwcoroq-f&4^19y33se
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-FRONTEND_URL = "https://meek-lolly-0b22ed.netlify.app/"  # For Vite development
+FRONTEND_URL = "https://heroic-basbousa-91b9a4.netlify.app/"  # For Vite development
 
 
 ALLOWED_HOSTS = ['*']
@@ -35,14 +35,14 @@ ALLOWED_HOSTS = ['*']
 
 
 # settings.py
-X_FRAME_OPTIONS = 'ALLOW-FROM https://meek-lolly-0b22ed.netlify.app'
+X_FRAME_OPTIONS = 'ALLOW-FROM https://heroic-basbousa-91b9a4.netlify.app/'
 CSRF_COOKIE_SAMESITE = 'None'
 CSRF_COOKIE_SECURE = True
 SESSION_COOKIE_SAMESITE = 'None'
 SESSION_COOKIE_SECURE = True
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
-    "https://meek-lolly-0b22ed.netlify.app/",
+    "https://heroic-basbousa-91b9a4.netlify.app/",
     "http://localhost:5173" , # For development
 ]
 CORS_ALLOW_ALL_ORIGINS = True 
@@ -137,9 +137,9 @@ CORS_ALLOW_HEADERS = [
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-  "https://meek-lolly-0b22ed.netlify.app/",
+  "https://heroic-basbousa-91b9a4.netlify.app/",
     "http://localhost:5173",
-    
+
 ]
 CSRF_COOKIE_SAMESITE = 'Lax'
 CSRF_COOKIE_HTTPONLY = False 
