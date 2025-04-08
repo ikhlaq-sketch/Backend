@@ -139,8 +139,8 @@ CORS_ALLOW_HEADERS = [
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-  "https://heroic-basbousa-91b9a4.netlify.app/",
-    "http://localhost:5173",
+#   "https://heroic-basbousa-91b9a4.netlify.app",
+#     "http://localhost:5173",
     "https://nextstep-backend-production.up.railway.app",
 
 ]
